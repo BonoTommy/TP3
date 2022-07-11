@@ -1,0 +1,66 @@
+body {
+    background-image: url("img/puce.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+h1 {
+    color: #fff;
+    margin: 0 6rem;
+    font-size: 60px;
+}
+
+h3 {
+    -webkit-text-stroke: 1px #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin: 3rem 10rem;
+
+}
+
+h4 {
+    margin: 3rem 3rem;
+    letter-spacing: 2px;
+    font-size: 35px;
+
+}
+
+.container-main {
+    margin: 0 8%;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    position: relative;
+    top: 50%;
+}
+
+.coordo, .grid-form {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: right;
+}
+
+.titre-coordo {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+
+.coordo ul {
+    display: flex;
+    flex-direction: column;
+}
+.coordo ul li{
+    flex-flow: column wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px;
+    text-align: right;
+    font-size: 30px;
+    margin-left: 0px;
+    color: #000;
+    
+}
